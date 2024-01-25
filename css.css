@@ -1,0 +1,22 @@
+body{background-color: blueviolet;}
+a { color: green;}
+a[target="_blank"] {
+    color: red;
+}
+:hover
+p:nth-child(8) {
+    font-style: italic;
+    
+}
+#first-div > p:after{
+    content: "  - NEW";
+    color: rgb(255, 255, 0);
+}
+#second-div>
+p:nth-child(even) {
+    color: red;
+}
+#second-div p:nth-child(odd){
+
+    color: blue;
+}
